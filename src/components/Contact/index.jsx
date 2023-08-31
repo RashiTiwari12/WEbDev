@@ -4,10 +4,10 @@ const Contact = () => {
     return (
         <>
             <div id="register" className={styleContact.mainContContact}>
-                <h2>  Get in Touch</h2>
+                <h3>  Get in Touch</h3>
 
-                <h3>Have a project in mind or simply want to know more about us? We're all ears!
-                    Fill out the form below, and let's start the conversation.</h3>
+                <h4>Have a project in mind or simply want to know more about us? We're all ears!
+                    Fill out the form below, and let's start the conversation.</h4>
 
                 <form className={styleContact.form}>
                     <h2>Contact Form</h2>

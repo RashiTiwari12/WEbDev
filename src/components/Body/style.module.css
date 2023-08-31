@@ -8,7 +8,7 @@
 
 .titleText {
     font-size: xx-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Acme';
     font-weight: bolder;
     font-style: oblique;
     /* padding: 30px; */
@@ -16,7 +16,7 @@
 
 .titleText02 {
     font-size: xx-large;
-    font-family: serif;
+    font-family: 'Big Shoulders Text', cursive;
     /* padding: 30px; */
 }
 
