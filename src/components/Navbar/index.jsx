@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Style.module.css'
 const Navbar = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
     return (
         <>
             <div className={styles.mainDiv}>
@@ -15,9 +25,21 @@ const Navbar = () => {
                     <a className={styles.NavOption} href="#register">
                         <h3 >Register Now</h3>
                     </a>
-                    {/* <button class="text-3xl text-white bg-sky-700 sm:bg-yellow" >
-                &#9776;
-            </button> */}
+
+                    {isOpen ? null : (
+                        <button className={styles.button} onClick={toggleMenu}>
+                            &#9776;
+                        </button>
+                    )}
+                    {isOpen && (
+                        <div className={styles.NavLists} onClick={closeMenu}>
+                            <ul>
+                                <a href="#about" className={styles.NavList}>About </a>
+                                <a href="#contact" className={styles.NavList} >Contact</a>
+                                <a href="#register" className={styles.NavList}>Register Now</a>
+                            </ul>
+                        </div>
+                    )}
                 </div>
 
             </div>

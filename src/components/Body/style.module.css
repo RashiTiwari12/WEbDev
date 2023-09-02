@@ -16,7 +16,8 @@
 
 .titleText02 {
     font-size: xx-large;
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Titan One', cursive;
+    /* font-family: 'Big Shoulders Text', cursive; */
     /* padding: 30px; */
 }
 
@@ -40,9 +41,19 @@
 }
 
 @media screen and (max-width: 768px) {
+    .mainCont {
+        background-image: url('../../images/image08.jpg');
+    }
+
     body {
         font-size: larger;
     }
 
 
+}
+
+@media screen and (min-width: 1380px) {
+    .mainCont {
+        background-image: url('../../images/image08.jpg');
+    }
 }

@@ -36,14 +36,38 @@
 
 }
 
+.button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: x-large;
+    display: none;
+}
+
+.NavLists {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.NavList {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
 @media screen and (max-width: 768px) {
-    .NavOptions {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-        font-size: small;
+    .NavOption {
+        display: none;
 
     }
 
+    .button {
+        display: block;
+    }
 
 }
