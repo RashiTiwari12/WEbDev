@@ -3,7 +3,7 @@
     justify-content: space-around;
     padding: 5px;
     background-color: rgb(228, 226, 226);
-    width: 98vw;
+    width: 100vw;
 }
 
 .Title {
@@ -47,12 +47,20 @@
 .NavLists {
     text-decoration: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    background-color: rgb(15, 9, 9);
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
 }
 
 .NavList {
-    color: black;
+    color: rgb(241, 232, 232);
     font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    line-height: 50px;
     text-decoration: none;
     list-style: none;
     display: flex;

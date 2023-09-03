@@ -32,13 +32,13 @@ const Navbar = () => {
                         </button>
                     )}
                     {isOpen && (
-                        <div className={styles.NavLists} onClick={closeMenu}>
+                        <dialog className={styles.NavLists} onClick={closeMenu}>
                             <ul>
                                 <a href="#about" className={styles.NavList}>About </a>
                                 <a href="#contact" className={styles.NavList} >Contact</a>
                                 <a href="#register" className={styles.NavList}>Register Now</a>
                             </ul>
-                        </div>
+                        </dialog>
                     )}
                 </div>
 

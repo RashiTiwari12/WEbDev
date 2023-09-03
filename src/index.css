@@ -69,4 +69,14 @@ button:focus-visible {
 } */
 * {
   box-sizing: border-box;
+
+}
+
+body,
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: silver;
+  margin: 0;
+  padding: 0;
 }
