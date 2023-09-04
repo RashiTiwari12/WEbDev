@@ -47,11 +47,11 @@
 .NavLists {
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    /* /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     background-color: rgb(15, 9, 9);
-    opacity: 0.8;
+    opacity: 0.9;
     width: 100vw;
     height: 100vh;
 }
@@ -60,11 +60,16 @@
     color: rgb(241, 232, 232);
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
-    line-height: 50px;
     text-decoration: none;
     list-style: none;
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
+}
+
+.closeBtn {
+    display: flex;
+    align-self: flex-end;
 }
 
 

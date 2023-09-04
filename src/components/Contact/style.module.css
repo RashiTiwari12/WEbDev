@@ -49,3 +49,9 @@
 .button:hover {
     background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .mainContContact {
+        font-size: medium;
+    }
+}

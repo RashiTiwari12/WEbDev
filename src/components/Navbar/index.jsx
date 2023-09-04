@@ -33,10 +33,12 @@ const Navbar = () => {
                     )}
                     {isOpen && (
                         <dialog className={styles.NavLists} onClick={closeMenu}>
+                            <button className={styles.closeBtn} onClick={closeMenu}>✖</button>
                             <ul>
                                 <a href="#about" className={styles.NavList}>About </a>
                                 <a href="#contact" className={styles.NavList} >Contact</a>
                                 <a href="#register" className={styles.NavList}>Register Now</a>
+
                             </ul>
                         </dialog>
                     )}
