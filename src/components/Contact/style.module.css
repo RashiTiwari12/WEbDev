@@ -52,6 +52,7 @@
 
 @media screen and (max-width: 768px) {
     .mainContContact {
-        font-size: medium;
+        font-size: small;
+        padding: 2px;
     }
 }

@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <>
             <div className={styles.mainDiv}>
-                <h1 className={styles.Title}>DevGenix</h1>
+                <h1 className={styles.Title}>DevGenZx</h1>
                 <div className={styles.NavOptions}>
                     <a className={styles.NavOption} href="#about">
                         <h3 >About</h3>
